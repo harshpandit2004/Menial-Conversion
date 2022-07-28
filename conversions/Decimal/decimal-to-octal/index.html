@@ -3,28 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Decimal - Octal</title>
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body class="main">
     <h2>Decimal To Octal base converter</h2>
     <div class="conversion-content">
       <div class="conversion-content-child">
-        <p for="bit" class="dd">Enter the number of Bits:</p>
-        <input type="number" class="textboxes" id="bit" />
-      </div>
-      <div class="conversion-content-child">
         <p for="decimal" class="dd">Decimal Number:</p>
         <input type="number" class="textboxes" id="decimal" />
       </div>
     </div>
 
-    <button onclick="decToBinaryConvert()" id="convert">Convert</button>
+    <button onclick="decToOctConvert()" id="convert">Convert</button>
 
-    <p for="bin" class="dd">Octal Number:</p>
-    <input type="number" class="textboxes" id="bin" />
+    <p class="dd">Octal Number:</p>
+    <input type="number" class="textboxes" id="oct" />
 
-    <button onclick="decToBinaryReset()" id="reset">Reset Values</button>
+    <button onclick="decToOctReset()" id="reset">Reset Values</button>
 
     <br />
     <script src="./index.js"></script>
