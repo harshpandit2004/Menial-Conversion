@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decimal - Binary</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body class="main">
+    <h2>Decimal To Binary base converter</h2>
+    <div class="conversion-content">
+      <div class="conversion-content-child">
+        <p for="bit" class="dd">Enter the number of Bits:</p>
+        <input type="number" class="textboxes" id="bit" />
+      </div>
+      <div class="conversion-content-child">
+        <p for="octal" class="dd">Octal Number:</p>
+        <input type="number" class="textboxes" id="octal" />
+      </div>
+    </div>
+
+    <button onclick="decToBinaryConvert()" id="convert">Convert</button>
+
+    <p for="bin" class="dd">Binary Number:</p>
+    <input type="number" class="textboxes" id="bin" />
+
+    <button onclick="decToBinaryReset()" id="reset">Reset Values</button>
+
+    <br />
+    <script src="./index.js"></script>
+  </body>
+</html>
