@@ -10,21 +10,17 @@
     <h2>Binary to Hexadecimal base converter</h2>
     <div class="conversion-content">
       <div class="conversion-content-child">
-        <p for="bit" class="dd">Enter the number of Bits:</p>
-        <input type="number" class="textboxes" id="bit" />
-      </div>
-      <div class="conversion-content-child">
-        <p for="decimal" class="dd">Decimal Number:</p>
-        <input type="number" class="textboxes" id="decimal" />
+        <p for="binary" class="dd">Binary Number:</p>
+        <input type="number" class="textboxes" id="binary" />
       </div>
     </div>
 
-    <button onclick="decToBinaryConvert()" id="convert">Convert</button>
+    <button onclick="binaryToHexadecimalConvert()" id="convert">Convert</button>
 
-    <p for="bin" class="dd">Binary Number:</p>
-    <input type="number" class="textboxes" id="bin" />
+    <p for="hexadecimal" class="dd">Hexadecimal Number:</p>
+    <input type="text" class="textboxes" id="hexadecimal" />
 
-    <button onclick="decToBinaryReset()" id="reset">Reset Values</button>
+    <button onclick="binaryToHexadecimalReset()" id="reset">Reset Values</button>
 
     <br />
     <script src="./index.js"></script>
