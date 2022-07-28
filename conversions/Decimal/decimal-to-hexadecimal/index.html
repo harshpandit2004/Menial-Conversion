@@ -8,23 +8,18 @@
   </head>
   <body class="main">
     <h2>Decimal To Hexadecimal base converter</h2>
-    <div class="conversion-content">
-      <div class="conversion-content-child">
-        <p for="bit" class="dd">Enter the number of Bits:</p>
-        <input type="number" class="textboxes" id="bit" />
-      </div>
       <div class="conversion-content-child">
         <p for="decimal" class="dd">Decimal Number:</p>
         <input type="number" class="textboxes" id="decimal" />
       </div>
     </div>
 
-    <button onclick="decToBinaryConvert()" id="convert">Convert</button>
+    <button onclick="decTohexConvert()" id="convert">Convert</button>
 
-    <p for="bin" class="dd">Hexadecimal Number:</p>
-    <input type="number" class="textboxes" id="bin" />
+    <p for="hex" class="dd">Hexadecimal Number:</p>
+    <input type="number" class="textboxes" id="hex" />
 
-    <button onclick="decToBinaryReset()" id="reset">Reset Values</button>
+    <button onclick="decTohexReset()" id="reset">Reset Values</button>
 
     <br />
     <script src="./index.js"></script>
