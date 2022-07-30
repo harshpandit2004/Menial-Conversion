@@ -13,6 +13,34 @@
   width: 100vw;
   height: 80vh;
 }
+.hmu-wala-div{
+  margin-top: 20%;
+  display: block;
+}
+.hmu-wala-div a{
+  text-decoration: none;
+  color: #5bd3fb;
+  border: none;
+  border-radius: 45px;
+  padding: 2rem;
+}
+.hmu-wala-div a:visited{
+  text-decoration: none;
+  color: #5bd3fb;
+  border: none;
+  border-radius: 45px;
+  padding: 2rem;
+}
+.hmu-wala-div a:hover{
+  box-shadow: 0px 15px 25px #2ebae566;
+  background-color: #ffffffd3;
+  color: #000000;
+  font-size: 15px;
+  transition: all .5s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 2rem;
+}
 .main h2 {
   font-size: 50px;
 }
@@ -59,6 +87,31 @@
 .navigation-wala-button:hover {
   background-color: #e5ca2e;
   box-shadow: 0px 15px 20px #e2e52e66;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.navigation-wala-button-reactwalecolorme {
+  width: 140px;
+  height: 45px;
+  font-family: monospace;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 2rem;
+}
+.navigation-wala-button-reactwalecolorme:hover {
+  background-color: #2ecae5;
+  box-shadow: 0px 15px 20px #2ebae566;
   color: #fff;
   transform: translateY(-7px);
 }
